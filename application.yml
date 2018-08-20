@@ -3,11 +3,15 @@
   active: 
   - dev
 
+---
+
 spring: 
   profiles: dev
   application: 
     name: microservicecloud-config-sgf-dev
-        
+   
+---
+
 spring: 
   profiles: test
   application: 
